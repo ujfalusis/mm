@@ -1,0 +1,11 @@
+apscheduler
+asyncio
+bitfinex-api-py==v3.0.0.b5
+numpy
+pandas
+pyee==11.1
+scikit-learn
+scipy
+tensorflow
+torch
+torchvision

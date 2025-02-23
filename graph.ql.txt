@@ -1,0 +1,44 @@
+{
+  swaps(first: 15, orderBy: block__timestamp, orderDirection: desc) {
+    accountIdA,
+    accountIdB,
+    block {
+      timestamp
+    },
+    fillBA,
+    fillBB,
+    tokenA {
+      symbol,
+      decimals
+    },
+    tokenAPrice,
+    tokenB {
+      symbol,
+      decimals      
+    },
+    tokenBPrice,
+    typename,
+  },
+  orderbookTrades(first: 15, orderBy: block__timestamp, orderDirection: desc) {
+    accountIdA,
+    accountIdB,
+    block {
+      timestamp
+    },
+    fillBA,
+    fillBB,
+    tokenA {
+      symbol,
+      decimals
+    },
+    tokenAPrice,
+    tokenB {
+      symbol,
+      decimals      
+    },
+    tokenBPrice,
+    typename,
+  }
+
+      
+}

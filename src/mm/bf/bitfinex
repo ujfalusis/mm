@@ -1,0 +1,306 @@
+https://support.bitfinex.com/hc/en-us/articles/115003451049-Bitfinex-Order-Types-and-Order-Options#h_01FCAYX8FFQ8GYBF5Z4G6X31MA
+
+
+Order Types
+
+Limit (Order Book);
+Market;
+Fill or Kill (FOK) - A Fill or Kill (FOK) Order is an order that must be filled immediately in its entirety, at a specific price or better, or it is cancelled.
+Immediate or Cancel - An Immediate Or Cancel (IOC) Order requires all or part of the order to be executed immediately, and any unfilled parts of the order are cancelled. Partial fills can take place with this type of order, unlike a fill-or-kill order, which must be filled immediately in its entirety or be cancelled.
+Scaled order (video) - The Scaled Order tool is an algorithm designed to allow you to spend less time entering orders and more time focusing on your strategy. The algorithm automatically creates multiple limit orders across a user-determined price range. This tool also provides control over the diversity and distribution of orders within the price range.
+
+Limit - A Limit Order allows you to specify an amount and price you are able and willing to buy or sell. 
+Stop - A Stop Order is used to trigger a market sell when the market drops to your trigger price or used to trigger a market buy if the market rises to your trigger price. 
+
+Stop-Limit
+When setting a Stop-limit, the trader puts a stop price at which the order can be triggered, and a limit price for the order may be filled. 
+Thus, once the stop of a Stop-limit order is triggered, the limit order would automatically create.
+
+Trailing Stop
+A Trailing Stop Order provides flexibility over a stop order by executing only once the market goes against you by a defined price distance. 
+Thus, you can use a trailing stop order to protect profit.
+
+
+
+Order Options
+
+One Cancels Other (OCO) order option
+The One-Cancels-Other Order (OCO) option allows you to place a pair of orders stipulating that if one order is executed fully or partially, then the other is automatically cancelled. An OCO order places a stop order and a limit order. This option allows you to set both take profit and stop loss targets for your position at the same time while only consuming available balance for one order.
+
+
+Hidden order option
+The Hidden Order option ensures an order does not appear in the order book; thus does not influence other market participants.
+
+
+Visible on Hit order option
+The Visible on Hit option applies to Hidden orders only. Once a hidden order has been partially executed, the remaining part becomes visible in the order book. 
+
+
+Reduce Only order option
+The Reduce Only option allows you to set orders intended to only reduce a current position. 
+As a result, you will not be able to execute more than you currently have in your position in the opposite direction, allowing you to trade without running the risk of over-exposing your assets.
+
+
+Post-Only Limit order option
+The Post-Only Limit Order option ensures the limit order will be added to the order book and not match with a pre-existing order. 
+If your order would cause a match with a pre-existing order, the engine will cancel your post-only limit order. 
+In addition, this order option ensures that you will pay the maker fee and not the taker fee. Visit the fees page for more information.
+
+Time in Force (TIF) order option
+The Time in Force option is available for Limit, Stop, Stop Limit, and Trailing Stop orders. 
+This option allows users to direct the duration (date and time) an order can stay open.
+
+
+
+-- Adam
+val_btcusdfirstup_categorical_accuracy: 0.8668 - 
+val_btcusddown_categorical_accuracy: 0.9011 - 
+val_btcusdup_categorical_accuracy: 0.9120 - 
+val_ethusdfirstup_categorical_accuracy: 0.8644 - 
+val_ethusddown_categorical_accuracy: 0.8849 - 
+val_ethusdup_categorical_accuracy: 0.9030 - 
+val_ethbtcfirstup_categorical_accuracy: 0.9010 - 
+val_ethbtcdown_categorical_accuracy: 0.9359 - 
+val_ethbtcup_categorical_accuracy: 0.9344
+
+-- Adamax
+val_btcusdfirstup_categorical_accuracy: 0.8550 - 
+val_btcusddown_categorical_accuracy: 0.8885 - 
+val_btcusdup_categorical_accuracy: 0.9075 - 
+val_ethusdfirstup_categorical_accuracy: 0.8426 - 
+val_ethusddown_categorical_accuracy: 0.8860 - 
+val_ethusdup_categorical_accuracy: 0.8877 - 
+val_ethbtcfirstup_categorical_accuracy: 0.8982 - 
+val_ethbtcdown_categorical_accuracy: 0.9335 - 
+val_ethbtcup_categorical_accuracy: 0.9336
+
+-- RMSProp
+val_btcusdfirstup_categorical_accuracy: 0.8711 - 
+val_btcusddown_categorical_accuracy: 0.9012 - 
+val_btcusdup_categorical_accuracy: 0.9109 - 
+val_ethusdfirstup_categorical_accuracy: 0.8757 - 
+val_ethusddown_categorical_accuracy: 0.8994 - 
+val_ethusdup_categorical_accuracy: 0.9036 - 
+val_ethbtcfirstup_categorical_accuracy: 0.8976 - 
+val_ethbtcdown_categorical_accuracy: 0.9350 - 
+val_ethbtcup_categorical_accuracy: 0.9334
+
+-- RMSProp with seed
+val_btcusdfirstup_categorical_accuracy: 0.8675 - 
+val_btcusddown_categorical_accuracy: 0.9011 - 
+val_btcusdup_categorical_accuracy: 0.9139 - 
+val_ethusdfirstup_categorical_accuracy: 0.8708 - 
+val_ethusddown_categorical_accuracy: 0.8972 - 
+val_ethusdup_categorical_accuracy: 0.9052 - 
+val_ethbtcfirstup_categorical_accuracy: 0.9037 - 
+val_ethbtcdown_categorical_accuracy: 0.9357 - 
+val_ethbtcup_categorical_accuracy: 0.9355
+
+
+
+
+[('BTCUSD', 1666034710000, 19525, 19525, 19524, 19524, 0.29922848),
+ ('BTCUSD', 1666034720000, 19519, 19519, 19519, 19519, 8.133e-05),
+ ('BTCUSD', 1666034740000, 19517, 19517, 19517, 19517, 8.046e-05),
+ ('BTCUSD', 1666034760000, 19515, 19515, 19515, 19515, 6.265e-05),
+ ('BTCUSD', 1666034790000, 19519, 19519, 19519, 19519, 6.81e-05),
+ ('BTCUSD', 1666034810000, 19522, 19522, 19521, 19521, 0.00174126),
+ ('BTCUSD', 1666034820000, 19521, 19521, 19521, 19521, 0.00488409),
+ ('BTCUSD', 1666034830000, 19522, 19522, 19522, 19522, 0.0001909),
+ ('BTCUSD', 1666034860000, 19521, 19521, 19521, 19521, 6e-05),
+ ('BTCUSD', 1666034870000, 19511, 19511, 19511, 19511, 0.07879999),
+ ('BTCUSD', 1666034890000, 19517, 19517, 19517, 19517, 0.00010177),
+ ('BTCUSD', 1666034910000, 19515, 19515, 19515, 19515, 0.00010862),
+ ('BTCUSD', 1666034930000, 19513, 19516, 19513, 19516, 0.9996),
+ ('BTCUSD', 1666034980000, 19515, 19517, 19515, 19517, 0.00923),
+ 
+ ('BTCUSD', 1666035010000, 19522, 19522, 19522, 19522, 0.00021188),
+ ('BTCUSD', 1666035020000, 19522, 19522, 19522, 19522, 0.13999999999999999),
+ ('BTCUSD', 1666035040000, 19521, 19521, 19521, 19521, 0.0005641),
+ ('BTCUSD', 1666035070000, 19527, 19531, 19527, 19531, 0.43675907),
+ ('BTCUSD', 1666035080000, 19531, 19531, 19531, 19531, 0.0019),
+ ('BTCUSD', 1666035090000, 19532, 19532, 19532, 19532, 0.002),
+
+ ('BTCUSD', 1666035130000, 19536, 19536, 19536, 19536, 0.005),
+ ('BTCUSD', 1666035140000, 19539, 19550, 19539, 19550, 0.265),
+ ('BTCUSD', 1666035160000, 19551, 19551, 19550, 19550, 0.024437149999999998),
+ ('BTCUSD', 1666035170000, 19548, 19548, 19548, 19548, 8.615e-05),
+ ('BTCUSD', 1666035200000, 19545, 19545, 19545, 19545, 0.00491384),
+ ('BTCUSD', 1666035220000, 19541, 19541, 19541, 19541, 0.00010958),
+ ('BTCUSD', 1666035240000, 19541, 19541, 19541, 19541, 0.00010331),
+ ('ETHBTC', 1666029130000, 0.067688, 0.067688, 0.067688, 0.067688, 0.05974275),
+ ('ETHBTC', 1666029180000, 0.067658, 0.067658, 0.067658, 0.067658, 0.05320913),
+ ('ETHBTC', 1666029310000, 0.06768, 0.06768, 0.06768, 0.06768, 0.10603932),
+ ('ETHBTC', 1666029340000, 0.06768, 0.06768, 0.06768, 0.06768, 0.10599937),
+ ('ETHBTC', 1666029380000, 0.067678, 0.067678, 0.067678, 0.067678, 0.05),
+ ('ETHBTC', 1666029530000, 0.06769, 0.06769, 0.06769, 0.06769, 0.10597304),
+ ('ETHBTC', 1666029680000, 0.067681, 0.06769, 0.067681, 0.06769, 0.32586902),
+ ('ETHBTC', 1666029790000, 0.06766, 0.06766, 0.06766, 0.06766, 0.10602697),
+ ('ETHBTC', 1666030010000, 0.06772, 0.06772, 0.06772, 0.06772, 0.00250322),
+ ('ETHBTC', 1666030320000, 0.06771, 0.06771, 0.06771, 0.06771, 45.105970889999995),
+ ('ETHBTC', 1666030550000, 0.06777, 0.06777, 0.06777, 0.06777, 0.10597141),
+ ('ETHBTC', 1666030700000, 0.067704, 0.067704, 0.067704, 0.067704, 0.00351044),
+ ('ETHBTC', 1666030760000, 0.06767, 0.06767, 0.06767, 0.06767, 0.00267476),
+ ('ETHBTC', 1666031130000, 0.067662, 0.067662, 0.067662, 0.067662, 0.0465438),
+ ('ETHBTC', 1666031360000, 0.067647, 0.067647, 0.067635, 0.067635, 0.67118729),
+ ('ETHBTC', 1666031970000, 0.067711, 0.067711, 0.067711, 0.067711, 0.00250343),
+ ('ETHBTC', 1666031990000, 0.067688, 0.067688, 0.067688, 0.067688, 0.0024784),
+ ('ETHBTC', 1666033340000, 0.067712, 0.06773, 0.067712, 0.06773, 3),
+ ('ETHBTC', 1666033510000, 0.067765, 0.067765, 0.067759, 0.067759, 2.01342757),
+ ('ETHBTC', 1666035090000, 0.067798, 0.067798, 0.067798, 0.067798, 0.01769937),
+ ('ETHBTC', 1666035140000, 0.06779, 0.06779, 0.06779, 0.06779, 0.10572172),
+ ('ETHBTC', 1666035260000, 0.067781, 0.067781, 0.067781, 0.067781, 0.06200449),
+ ('ETHUSD', 1666034590000, 1321.5, 1321.5, 1321.5, 1321.5, 0.5280670799999999),
+ ('ETHUSD', 1666034620000, 1321.7, 1321.7, 1321.7, 1321.7, 0.00265885),
+ ('ETHUSD', 1666034640000, 1321.8, 1321.9, 1321.8, 1321.9, 1.44442197),
+ ('ETHUSD', 1666034670000, 1322, 1322, 1322, 1322, 0.00276243),
+ ('ETHUSD', 1666034680000, 1322, 1322, 1322, 1322, 0.05),
+ ('ETHUSD', 1666034710000, 1322, 1322, 1322, 1322, 0.00312964),
+ ('ETHUSD', 1666034730000, 1322, 1322, 1322, 1322, 0.00228926),
+ ('ETHUSD', 1666034740000, 1322, 1322, 1322, 1322, 1.94181867),
+ ('ETHUSD', 1666034760000, 1322.3, 1322.3, 1322.3, 1322.3, 0.00216819),
+ ('ETHUSD', 1666034770000, 1322.4, 1322.4, 1322.4, 1322.4, 0.05),
+ ('ETHUSD', 1666034800000, 1322.5, 1322.5, 1322.5, 1322.5, 0.00287317),
+ ('ETHUSD', 1666034810000, 1322.9, 1322.9, 1322.9, 1322.9, 0.028910929999999998),
+ ('ETHUSD', 1666034820000, 1323.1, 1323.1, 1323.1, 1323.1, 0.05),
+ ('ETHUSD', 1666034830000, 1323.4, 1323.5, 1323.4, 1323.5, 0.1),
+ ('ETHUSD', 1666034840000, 1323.3, 1323.3, 1323.3, 1323.3, 0.1),
+ ('ETHUSD', 1666034860000, 1322.9, 1322.9, 1322.9, 1322.9, 0.00234254),
+ 
+ ('ETHUSD', 1666034920000, 1322.6, 1322.6, 1322.6, 1322.6, 0.00267977),
+ ,
+ ('ETHUSD', 1666034970000, 1322.4, 1322.4, 1322.4, 1322.4, 0.00309481),
+ ('ETHUSD', 1666034990000, 1322.5, 1322.5, 1322.5, 1322.5, 0.00236561),
+ ('ETHUSD', 1666035020000, 1322.7, 1322.7, 1322.7, 1322.7, 0.00322854),
+ ('ETHUSD', 1666035040000, 1322.6, 1322.8, 1322.6, 1322.8, 0.40913404),
+ 
+ ('ETHUSD', 1666035080000, 1323.9, 1323.9, 1323.9, 1323.9, 1.43294487),
+ ('ETHUSD', 1666035090000, 1324, 1324.2, 1324, 1324.2, 0.9439),
+ ('ETHUSD', 1666035100000, 1324.3, 1324.3, 1324.2, 1324.2, 0.33757852),
+ ('ETHUSD', 1666035130000, 1324.4, 1324.7, 1324.4, 1324.7, 0.052132960000000006),
+ ('ETHUSD', 1666035160000, 1324.5, 1324.5, 1324.5, 1324.5, 0.00231722),
+ ('ETHUSD', 1666035190000, 1324.6, 1324.6, 1324.6, 1324.6, 0.00340412),
+ ('ETHUSD', 1666035200000, 1324.7, 1325.3, 1324.7, 1325.3, 2.4586556),
+ ('ETHUSD', 1666035210000, 1325.2, 1325.2, 1324.8, 1324.8, 0.027999999999999997),
+ ('ETHUSD', 1666035230000, 1324.6, 1324.6, 1324.6, 1324.6, 0.00339545),
+ ('ETHUSD', 1666035260000, 1324.2, 1324.2, 1324.2, 1324.2, 0.39627102999999997)]
+
+
+
+
+{('ETHUSD', 1666034880000): [1322.6,
+  1322.6,
+  1322.6,
+  1322.6,
+  0.006560460000000001,
+  11.7240794921875],
+  ('ETHUSD', 1666034880000, 1322.6, 1322.6, 1322.6, 1322.6, 0.00388069),
+  
+ ('ETHUSD', 1666034940000): [1322.7,
+  1322.5,
+  1322.7,
+  1322.4,
+  0.00844481,
+  11.06932958984375],
+  ('ETHUSD', 1666034940000, 1322.7, 1322.7, 1322.7, 1322.7, 0.00298439)
+  
+ ('BTCUSD', 1666034880000): [19517,
+  19516,
+  19517,
+  19513,
+  0.9998103899999999,
+  10.47649208984375],
+ ('BTCUSD', 1666034940000): [19515,
+  19517,
+  19517,
+  19515,
+  0.00923,
+  11.022265795898438],
+ ('BTCUSD', 1666035000000): [19521,
+  19521,
+  19522,
+  19521,
+  0.14088167,
+  9.81374609375],
+  ('BTCUSD', 1666035000000, 19521, 19521, 19521, 19521, 0.00010569),
+
+ ('ETHUSD', 1666035000000): [1322.7,
+  1322.8,
+  1322.8,
+  1322.6,
+  0.41236258,
+  10.789789208984375],
+ ('ETHUSD', 1666035060000): [1323.3,
+  1324.2,
+  1324.3,
+  1323.3,
+  2.71811082,
+  10.3469919921875],
+  ('ETHUSD', 1666035060000, 1323.3, 1323.3, 1323.3, 1323.3, 0.00368743),
+
+ ('BTCUSD', 1666035060000): [19527,
+  19532,
+  19532,
+  19527,
+  0.44065907000000004,
+  11.866717407226563],  
+ ('ETHBTC', 1666035060000): [0.067798,
+  0.067798,
+  0.067798,
+  0.067798,
+  0.01769937,
+  9.12123330078125],
+ ('BTCUSD', 1666035120000): [19535,
+  19548,
+  19551,
+  19535,
+  0.29461056,
+  10.618414892578125],
+ ('BTCUSD', 1666035120000, 19535, 19535, 19535, 19535, 8.726e-05),
+
+ ('ETHUSD', 1666035120000): [1324.4,
+  1324.5,
+  1324.7,
+  1324.4,
+  0.05445018,
+  11.803252783203124],
+ ('ETHBTC', 1666035120000): [0.06779,
+  0.06779,
+  0.06779,
+  0.06779,
+  0.10572172,
+  3.121335498046875],
+ ('BTCUSD', 1666035180000): [19547,
+  19541,
+  19547,
+  19541,
+  0.045023419999999995,
+  10.204494604492188],
+ ('BTCUSD', 1666035180000, 19547, 19547, 19547, 19547, 0.04),
+
+ ('ETHUSD', 1666035180000): [1324.6,
+  1324.6,
+  1325.3,
+  1324.6,
+  2.49345517,
+  9.028515698242188],
+ ('ETHUSD', 1666035240000): [1324.7,
+  1324.2,
+  1324.7,
+  1324.2,
+  0.72393348,
+  3.0285156982421877],
+ ('ETHUSD', 1666035240000, 1324.7, 1324.7, 1324.3, 1324.3, 0.32766245),
+  
+ ('BTCUSD', 1666035240000): [19541,
+  19545,
+  19545,
+  19541,
+  0.00018130000000000002,
+  4.204596411132813],
+ ('ETHBTC', 1666035240000): [0.067781,
+  0.067781,
+  0.067781,
+  0.067781,
+  0.06200449,
+  3.118711083984375]}

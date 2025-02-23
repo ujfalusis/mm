@@ -1,0 +1,14 @@
+[project]
+name = "mm"
+version = "1.0"
+
+[tool.setuptools.packages.find]
+where = [
+    "src"
+]
+# install editable module, run from workspace root dir
+# pip install -e .
+
+[tool.pytest.ini_options]
+pythonpath = "src"
+testpaths = ["tests"]

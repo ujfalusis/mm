@@ -1,0 +1,24 @@
+az árfolyam növekedése várható
+    - később 
+
+
+nem tartom az eszközt
+    előbb min. várható (00)
+        - (000 110) eszközt: semmi, kivéve ha a min. kicsi és a max. nagy
+        - (001 112) vételi ajánlat: igen, ha várható később emelkedés
+        - (002 111) eladási ajánlat: semmi, nincs eszközöm és nem is veszek
+    előbb max. várható (01)
+        - (010 100) eszközt: veszek, ha erősebb az emelkedés
+        - (011 102) vételi ajánlat: semmi, felfele indul az árfolyam, meg kell szüntetni ha van 
+        - (012 101) eladási ajánlat: ha vettem eszközt és visszaesés várható
+tartom az eszközt
+    előbb max. várható (11)
+        - (110) eszközt: semmi, kivéve ha a max. kicsi és a min. nagy 
+        - (111) vételi ajánlat: semmi, van eszközöm és nem is adom el
+        - (112) eladási ajánlat: igen, ha várható később visszaesés
+    előbb min. várható (10)
+        - (100) eszközt: eladok, ha erősebb a visszaesés
+        - (101) vételi ajánlat: ha eladtam az eszközt és emelkedés várható
+        - (102) eladási ajánlat: semmi, lefele indul az árfolyam, meg kell szüntetni ha van 
+
+
